@@ -9,6 +9,7 @@
     "db:seed": "tsx server/src/db/seed.ts",
     "build": "next build",
     "start": "next start",
+    "start:server": "tsx server/src/index.ts",
     "lint": "eslint"
   },
   "dependencies": {

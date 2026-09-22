@@ -5,10 +5,10 @@ const nextConfig: NextConfig = {
     return [
       {
         source: "/api/:path*",
-        destination: "http://localhost:5000/api/:path*"
-      }
+        destination: `${process.env.API_URL}/api/:path*`,
+      },
     ];
-  }
+  },
 };
 
 export default nextConfig;
